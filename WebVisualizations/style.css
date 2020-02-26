@@ -1,40 +1,8 @@
-.column-left {
-  background-color: violet;
+.col-md-8 img {
   float: left;
-  width: 65%;
-  height: 100vh;
-  border: 30px solid green;
-  padding: 15px;
-}
-
-.column-right {
-  background-color: firebrick;
-  float: right;
-  width: 35%;
-  height: 100vh;
-  border: 30px solid green;
-  padding: 15px;
-}
-
-.main-column {
-  background-color: violet;
-  float: left;
-  width: 100%;
-  height: 100vh;
-  border: 30px solid green;
-  padding: 15px;
-}
-.text-in-box {
-  border: 30px solid green;
-  padding: 70px;
-  height: 75vh;
-}
-
-img {
-  float: left;
-  border: 1px solid #ddd;
+  border: 10px solid #ddd;
   border-radius: 4px;
-  padding: 10px;
+  padding: 0px;
   width: 40%;
   height: 35vh;
 }
@@ -54,21 +22,6 @@ img {
   .navbar li {
     padding: 10px;
   }
-*/
-.column-right {
-  width: 100%;
-  background-color: firebrick;
-  float: right;
-  width: 35%;
-  height: 100vh;
-  border: 30px solid green;
-  padding: 15px;
-}
-
-.post {
-  margin-right: 30px;
-  margin-left: 30px;
-}
 
 /*.navbar ul {
   visibility: hidden;
@@ -111,6 +64,36 @@ img {
   width: 45%;
 }
 
-.text-block {
-  display: above;
+h1 {
+  color: #0bada6;
+  font-family: sans-serif;
+  font-weight: 900;
+  padding: 50px;
+}
+h2 {
+  color: #0bada6;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+.col-md-8 {
+  background: #fff;
+  border: 65px solid #ededed;
+}
+
+.col-md-4 {
+  position: relative;
+  background: #fff;
+  border: 50px solid #ededed;
+  border-bottom: 100px solid #ededed;
+}
+
+.col-md-4 img {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
 }
